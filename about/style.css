@@ -1,0 +1,104 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/* global */
+
+html{
+  font-family: muli;
+  font-size: 10px;
+}
+
+.container{
+  margin:0 auto;
+  text-align: center;
+  width:80%;
+  overflow: hidden;
+}
+
+
+p{
+  line-height: 1.5;
+}
+
+/* header */
+
+header li{
+  display:inline;
+  float: left;
+  font-size: 1rem;
+  padding:0 1rem;
+}
+
+header #logo{
+  float: left;
+  margin-top:2.5rem;
+}
+
+header nav{
+  float: right;
+  margin:3rem 0;
+}
+
+header nav span{
+  color:#B76E79;
+  border: solid .2rem #B76E79;
+  border-spacing: 1rem;
+}
+
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+header a: hover{
+  color:#A44935;
+  font-weight: bold;
+}
+
+/* About Me */
+
+#about-me{
+  background-image: url(images/background.svg);
+}
+
+#personal-photo{
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5rem 0;
+  width:90%;
+}
+
+h3{
+  font-family: playfair display;
+  font-size:2.4rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+h4{
+  font-size:2.2rem;
+  color: #B76E79;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+p{
+  font-size:1.8rem;
+  padding bottom: 5rem;
+  text-align: left;
+}
+
+
+
+/* Footer */
+footer #copyright{
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}

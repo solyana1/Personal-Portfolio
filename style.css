@@ -1,0 +1,194 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/*global*/
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: muli;
+  line-height: 1.25;
+}
+
+.container{
+  margin:auto;
+  overflow:hidden;
+  text-align: center;
+  width:80%;
+}
+
+h1{
+  font-family: Playfair Display;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top:19rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-family: muli;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h3{
+  font-family: Playfair Display;
+  font-size: 2.4rem;
+  padding: 3rem 0;
+}
+
+h4{
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+/*Header*/
+
+#fixednav {
+  overflow: hidden;
+  background: #ffffff;
+  position: fixed;
+  width:100%;
+}
+
+#logo img{
+  margin-top:2.5rem;
+  margin-bottom: 1rem;
+}
+
+header{
+    background-image:url(images/background.svg);
+    min-height:20rem;
+  }
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:1rem;
+}
+
+
+header li{
+  display:inline;
+  float: left;
+  padding:0 1rem;
+  text-transform: uppercase;;
+}
+
+header #logo{
+  float: left;
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top:3rem;
+}
+
+header nav span{
+  color:#B76E79;
+  border: solid .2rem #B76E79;
+  border-spacing: 1rem;
+}
+
+
+header a: hover{
+  color:#A44935;
+  font-weight: bold;
+}
+
+
+header #down-arrow{
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  color:#B76E79;
+}
+
+
+/* Selected Work */
+
+#selected-work{
+  padding-bottom:10%;
+}
+
+#selected-work img{
+  width:80%;
+  /* margin: 1.5rem 0; */
+}
+
+
+#selected-work h2{
+  font-size:1.4rem;
+}
+
+#selected-work p{
+  font-size: 1.2rem;
+
+}
+
+#selected-work a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+#selected-work button{
+  background-color:#97676F;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  height:10%;
+  margin-top:2rem;
+  padding:.7rem;
+  width:15rem;
+}
+
+
+
+/* Let's Connect*/
+#connect{
+  background-image:url(images/background.svg);
+  padding:2rem;
+}
+
+#connect a{
+  color: #B76E79;
+  text-decoration: none;
+}
+
+#connect button{
+  background-color:#ffffff;
+  border: .2rem solid #B76E79;
+  border-radius: .5rem;
+  color:#B76E79;
+  display: inline-block;
+  height:10%;
+  margin:.5rem;
+  padding:.5rem;
+  width:15rem;
+}
+
+/* Footer */
+
+#copyright{
+  padding-top: 4rem;
+  text-align:center;
+}
+
+/* footer .social-links{
+  display:inline;
+  margin-top:4rem;
+  overflow: auto;
+  padding:.5rem;
+  text-align:center;
+} */

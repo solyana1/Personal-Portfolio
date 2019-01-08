@@ -1,0 +1,289 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/*global*/
+html{
+  font-size: 10px;
+}
+
+body{
+  font-family: muli;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+button{
+  background-color:#97676F;
+  border-radius: 3px;
+  color:#fff;
+  display: block;
+  height:10%;
+  margin: 0 auto;
+  padding:1rem;
+  text-transform: uppercase;
+  width:20rem;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+
+h4{
+  font-size:2.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+  text-decoration: underline;
+  text-decoration-color:#6D494F;
+}
+
+h5{
+  font:2rem;
+  padding-top:2rem;
+  font-weight: bold;
+}
+
+section{
+  padding:2rem 0;
+}
+
+
+/* header */
+
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+
+
+header li{
+  display:inline;
+  float: left;
+  font-size: 1rem;
+  padding:0 1rem;
+}
+
+header #logo{
+  float: left;
+  margin-top:2.5rem;
+}
+
+header nav{
+  float: right;
+  margin-top:3rem;
+}
+
+header nav span{
+  color:#B76E79;
+  border: solid .2rem #B76E79;
+  border-spacing: 1rem;
+}
+
+
+header a: hover{
+  color:#A44935;
+  font-weight: bold;
+}
+
+
+
+/* hero unit*/
+
+#intro h1{
+  border-bottom: solid .5rem #6D494F;
+  color:#002194;
+  font-size: 2.4rem;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+  text-align:center;
+}
+
+#intro p{
+  margin-bottom: 2rem;
+}
+
+#hero img{
+  display: block;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 80%;
+}
+
+/*intro*/
+
+#intro span{
+  color:#97676F;
+}
+
+
+/* specs */
+#specs {
+  background-image:url(images/background.svg);
+  display:block;
+  margin: 2rem 0;
+  padding:10rem;
+}
+
+#specs img{
+  display:block;
+  width:5rem;
+  margin:0 auto;
+}
+
+#specs h5{
+  font-size: 2rem;
+  padding-bottom: .5rem;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+#specs p{
+  font:1.6px;
+  text-align: center;
+  }
+
+#spec1{
+  padding-bottom: 5rem;
+}
+
+#spec2{
+  padding-bottom: 5em;
+  }
+
+/* overview */
+
+#overview img{
+  display:block;
+  margin: 0 auto;
+  padding-top:1.5rem;
+  width:40%;
+}
+
+#overview p{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+/* Discovery */
+#discovery{
+  background-color:#F2F3F4;
+}
+
+#discovery img{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+#discovery .solution{
+  margin: 0 auto;
+  width: 55%;
+}
+
+#solutions{
+  padding-bottom: 5rem;
+}
+
+.solution span{
+  background: #B4E1FF;
+  border-radius: 50%;
+  height:3rem;
+  margin: 5rem 0;
+  padding:2rem;
+  width:3rem;
+
+}
+
+
+/* Research */
+
+#results{
+  display: block;
+  margin: 0 auto;
+  padding-right: 1rem;
+  width: 90%;
+
+
+}
+#research img{
+  display: block;
+  margin: 0 auto;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+#research a{
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+/* Info Architecture */
+#ia{
+  background-color:#F2F3F4;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+}
+
+#ia img{
+  display: block;
+  margin: 0 auto;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  width:100%;
+}
+
+#ia a{
+  font-size:1rem;
+  text-align: center;
+}
+
+/* Visual Design */
+#visual img{
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width:100%;
+
+}
+
+#visual a{
+  font-size:1rem;
+  text-align: center;
+}
+
+
+
+
+/* Conclusion */
+#conclusion{
+  background-color:#F2F3F4;
+}
+
+#conclusion p{
+  padding-top:1rem;
+  padding-bottom: 2rem;
+}
+
+
+
+/* Footer */
+footer #copyright{
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
