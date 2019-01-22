@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -14,15 +15,16 @@
       <div id="fixednav">
       <div class="container">
         <div id="logo">
-          <a href="index.html"><img src="images/initialslogo.svg" alt="logo"></a>
+          <a href="index.html"><img src="images/initialslogo.svg" class="initials" alt="logo"></a>
         </div>
         <div>
           <nav>
             <ul>
-              <li> <a href="casestudy1/index.html">Work</a></li>
-              <li> <a href="resume/resume.pdf">Resume</a></li>
-              <li> <a href="about/about.html">About</a></li>
-              <li> <a href="mailto:sg.taffe@gmail.com"><span>Contact</span></a></li>
+              <li class="menu"> <a href="casestudy1/index.html">Work</a></li>
+              <li class="menu"> <a href="resume/resume.pdf">Resume</a></li>
+              <li class="menu"> <a href="about/index.html">About</a></li>
+              <li id="contact-menu"><button type="button" class="contact"> <a href="mailto:sg.taffe@gmail.com">Contact</a></button></li>
+              </div>
             </ul>
           </nav>
         </div>
@@ -36,34 +38,41 @@
     </section>
     <section id="down-arrow">
       <div class="container">
-       <i class="fa fa-angle-down" style="font-size:24px"></i>
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
      </div>
     </section>
     </header>
     <section id="selected-work">
       <div class="container">
         <h3> Selected Work</h3>
-        <img src="images/showcase1.svg">
-        <h4> Angel Cloud Storage </h4>
-        <p>a cloud storage mobile and web application desiged to provide a secure way to store content on the cloud.</p>
-        <button type="button_1"> <a href="casestudy1/index.html">View Case Study</a></button>
+          <div id="image">
+            <img src="images/showcase1.svg" alt"project 1">
+          </div>
+          <div id="description">
+            <h4> Angel Cloud Storage </h4>
+            <p>a cloud storage mobile and web application desiged to provide a secure way to store content on the cloud.</p>
+            <button type="button"> <a href="casestudy1/index.html">View Case Study</a></button>
+          </div>
+        </div>
       </div>
     </section>
     <section id="connect">
       <div class="container">
         <h3> Let's Connect!</h3>
-        <button type="button_2" class="email">  <a href="mailto:sg.taffe@gmail.com">  Email </a></button><br>
-        <button type="button_2" class="social"> <a href="https://www.linkedin.com/in/solyana-t-08486bab/"> LinkedIn </a> </button>
+        <button type="button" class="email">  <a href="mailto:sg.taffe@gmail.com">  Email </a></button><br>
+        <button type="button" class="social"> <a href="https://www.linkedin.com/in/solyana-t-08486bab/"> LinkedIn </a> </button>
       </div>
-    <footer>
-      <div class="container">
-        <ul>
-          <!-- <li class="social-links"><a href="mailto:sg.taffe@gmail.com" class="fa fa-envelope" aria-hidden="true"></a></li>
-          <li class="social-links"><a href="https://www.linkedin.com/in/solyana-t-08486bab/" class="fa fa-linkedin-square" aria-hidden="true"></a></li>
-          <li class="social-links"><a href="https://twitter.com/solyana_t" class="fa fa-twitter" aria-hidden="true"></a></i> -->
-          <li id="copyright"> &copy; 2018 Solyana Tafesse</li>
-        </ul>
+  </body>
+  <footer id="myFooter">
+    <div class="container">
+      <div class="social-networks">
+          <a href="https://www.linkedin.com/in/solyana-t-08486bab/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="https://twitter.com/solyana_t" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="https://github.com/solyana1" class="github"><i class="fa fa-github"></i></a>
       </div>
-    </footer>
-</body>
+      <div class="footer-copyright">
+          <p>© 2018 Solyana Tafesse </p>
+      </div>
+    </div>
+  </footer>
 </html>
