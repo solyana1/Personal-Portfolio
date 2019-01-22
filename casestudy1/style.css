@@ -586,6 +586,7 @@ padding: 5rem 0;
   }
 
 
+/* Information Architecture */
 
 #ia .flex-container{
     align-items: flex-start;
@@ -594,34 +595,10 @@ padding: 5rem 0;
     padding: 0;
   }
 
-#ia img{
+
+ #ia img{
     padding:0 2rem;
 }
-
-#ia #uf{
-    float: left;
-    width:48%;
-  }
-
-#ia #us{
-  float:right;
-  width:48%;
-}
-
-#ia #us img{
-  padding:4rem 0;
-}
-
-#ia #sketches {
-  float: left;
-  width:48%;
-  }
-
-#ia #wireframes{
-  float:right;
-  width:48%;
-}
-
 
 
 
