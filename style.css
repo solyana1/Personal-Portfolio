@@ -91,7 +91,6 @@ header #logo{
 
 #contact-menu a{
   color: #B76E79;
-  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -100,7 +99,6 @@ header #logo{
   border: .2rem solid #B76E79;
   margin-top:3rem;
 }
-
 
 ul{
   float: right;
@@ -113,7 +111,7 @@ ul{
 }
 
 
-header #down-arrow{
+header #caret{
   display:none;
 }
 
@@ -184,6 +182,10 @@ p{
   margin:.5rem;
   padding:.5rem;
   width:15rem;
+}
+
+#connect button a:hover{
+  font-weight: bold;
 }
 
 /* Footer */
@@ -294,10 +296,7 @@ p{
     font-size: 1.2rem;
   }
 
-  header #down-arrow{
-    font-size: 4rem;
-    color:#B76E79;
-  }
+
 
 
 /* Selected Work  */
@@ -364,7 +363,10 @@ p{
     font-size: 1.5rem;
   }
 
-
+  header #caret{
+    font-size: 4rem;
+    color:#B76E79;
+  }
   /* Selected Work */
 
   #selected-work h3{

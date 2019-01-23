@@ -208,7 +208,6 @@ padding: 5rem 0;
 
 #discovery .solution{
   margin: 0 auto;
-  width: 55%;
 }
 
 #solutions{
@@ -389,6 +388,10 @@ padding: 5rem 0;
      font-size: 1.2rem;
    }
 
+   #contact-menu button a:hover{
+     font-weight: bold;
+   }
+
 /* intro */
   #angel-menu a{
     display:none;
@@ -408,6 +411,137 @@ padding: 5rem 0;
     margin: 0 auto;
     width:40%;
   }
+  /* Angel Menu */
+
+    #angel-menu{
+      background-color:#6D494F;
+      margin:0 auto;
+      padding:2rem 0;
+      width:100%;
+    }
+
+    #angel-menu a{
+      color:#ffffff;
+      text-decoration:none;
+      text-transform:uppercase;
+    }
+
+
+    #angel-menu ul{
+      display:flex;
+      flex-direction: row;
+      font-size: 2rem;
+      justify-content: space-evenly;
+      text-align:center;
+
+    }
+
+  /* overview */
+
+  #overview img{
+    width:30%;
+  }
+
+  #overview p{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+
+
+  /* Discovery */
+
+
+  .solution{
+    margin: 0 auto;
+    width: 40%;
+  }
+
+
+
+  /* Discovery & Research */
+
+    #problem #solutions #research{
+    margin:0 auto;
+    width:80%;
+    }
+
+
+    /* Research */
+
+
+      #research img{
+        padding:0;
+      }
+      #research .survey-results{
+        display:grid;
+        grid-gap: 2rem;
+        grid-template-columns: 6fr 6fr;
+        grid-template-areas:
+        "result 1"
+        "result 2"
+        "result 3"
+        "result 4";
+        padding-top:4rem;
+      }
+
+    #research .SWOT{
+      margin: 0 auto;
+      padding:4rem 0;
+    }
+
+
+
+/* Information Architecture */
+
+#ia{
+  padding: 5rem 0;
+}
+
+#ia .flex-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction:row;
+    padding: 0;
+  }
+
+
+ #ia img{
+    padding:0 2rem;
+}
+
+ #ia, #us, #uf, #sketches, #wireframes{
+    flex: 1 1 50%;
+ }
+
+#uf, #sketches{
+  padding-right: 2rem;
+}
+#us, #wireframes{
+  padding-left: 2rem;
+}
+
+
+/* Visual Design */
+
+  #visual{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #visual #logo-sketches{
+    align-items: flex-start;
+    display:flex;
+    flex-direction: row;
+  }
+
+
+  /* Conclusion */
+  #conclusion p{
+    margin: 0 auto;
+    width: 80%;
+  }
 
 
       /* DESKTOP */
@@ -420,6 +554,9 @@ padding: 5rem 0;
   font-size: 2.4rem;
 }
 
+  #research a, #ia a, #visual a{
+    font-size: 2rem;
+  }
 
   /* Header */
   #logo img{
@@ -444,7 +581,7 @@ padding: 5rem 0;
   /* hero unit*/
 
   #intro h1{
-    font-size: 4.8rem;
+    font-size: 4rem;
     padding-top: 5rem;
   }
 
@@ -469,6 +606,7 @@ padding: 5rem 0;
     flex-direction:row;
     justify-content: center;
     margin: 0 auto;
+    padding: 8rem 0;
     width:80%;
   }
 
@@ -479,7 +617,7 @@ padding: 5rem 0;
 
 
   #spec1, #spec2, #spec3{
-      width:25%;
+      width:20%;
     }
 
   /* Angel Menu */
@@ -536,16 +674,14 @@ padding: 5rem 0;
 
   #discovery .flex-container{
     display: flex;
-    align-items: stretch;
     flex-direction:row;
-    justify-content: center;
     margin: 0 auto;
     width:80%;
   }
 
   .solution{
     margin: 0 auto;
-    width: 55%;
+    width: 70%;
   }
 
   #solutions{
@@ -588,6 +724,10 @@ padding: 5rem 0;
 
 /* Information Architecture */
 
+#ia{
+  padding: 5rem 0;
+}
+
 #ia .flex-container{
     align-items: flex-start;
     display: flex;
@@ -599,6 +739,18 @@ padding: 5rem 0;
  #ia img{
     padding:0 2rem;
 }
+
+ #ia, #us, #uf, #sketches, #wireframes{
+    flex: 1 1 50%;
+ }
+
+#uf, #sketches{
+  padding-right: 2rem;
+}
+#us, #wireframes{
+  padding-left: 2rem;
+}
+
 
 
 

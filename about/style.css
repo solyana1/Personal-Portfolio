@@ -55,8 +55,8 @@ header #logo{
   background-color:#fff;
   border: .2rem solid #B76E79;
   margin-top:3rem;
-
 }
+
 
 ul{
   float: right;
@@ -202,10 +202,12 @@ h4{
 
 
    .personal-photo{
-     width:50%;
+     width:40%;
    }
 
-
+   h3{
+     font-size:3rem;
+   }
 
 
 }
@@ -228,17 +230,23 @@ h4{
     display:inline;
   }
 
-  #description{
-    float:right;
-    font-size:2.4rem;
-    padding-top: 15rem;
+  .personal-photo{
+    width:60%;
+  }
+
+
+   #description{
+     padding-top: 10rem;
     width:50%;
   }
 
-  .personal-photo{
-    float:left;
-    padding-left: 20rem;
-    width:40%;
+
+
+
+  #flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
   }
 
   /* Header */
@@ -263,5 +271,5 @@ h4{
   /* Footer */
   #myFooter .social-networks {
     padding-top: 2rem;
-  text-align: right;
+    text-align: right;
   }
