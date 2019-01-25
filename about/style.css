@@ -63,7 +63,7 @@ ul{
 }
 
 header{
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 
 }
 
@@ -82,7 +82,7 @@ header a: hover{
 /* About Me */
 
 #about-me{
-  background-image: url(images/background.svg);
+  background-image: url(../images/background.svg);
   overflow: hidden;
 }
 

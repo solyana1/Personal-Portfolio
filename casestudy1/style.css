@@ -87,12 +87,6 @@ ul{
   float: right;
 }
 
-/* header a: hover{
-  color:#A44935;
-  font-weight: bold;
-} */
-
-
 
 /* hero unit*/
 
@@ -126,7 +120,7 @@ ul{
 
 /* specs */
 #specs{
-  background-image:url(images/background.svg);
+  background-image:url(../images/background.svg);
 }
 
 .flex-container {
@@ -159,7 +153,7 @@ ul{
 
 /* Case Study Navigation */
 #angel-menu{
-  display:none;
+  visibility: hidden;
 }
 
 /* overview */
@@ -230,15 +224,15 @@ padding: 5rem 0;
   padding: 5rem 0;
   }
 
-}
+
 #results{
-  display: block;
-  margin: 0 auto;
+  align-items: center;
   padding-right: 1rem;
   width: 90%;
-
-
 }
+
+
+
 #research img{
   display: block;
   margin: 0 auto;
@@ -267,6 +261,7 @@ padding: 5rem 0;
   font-size:1rem;
   text-align: center;
 }
+
 
 
 /* Visual Design */
@@ -369,7 +364,8 @@ padding: 5rem 0;
 	color: #333;
 }
 
-}
+
+
 
     /*TABLET */
 @media screen and (min-width: 575px){
@@ -393,8 +389,8 @@ padding: 5rem 0;
    }
 
 /* intro */
-  #angel-menu a{
-    display:none;
+  #angel-menu{
+    visibility: hidden;
   }
 
 
@@ -411,30 +407,12 @@ padding: 5rem 0;
     margin: 0 auto;
     width:40%;
   }
-  /* Angel Menu */
 
-    #angel-menu{
-      background-color:#6D494F;
-      margin:0 auto;
-      padding:2rem 0;
-      width:100%;
-    }
+/* angel-menu  */
 
-    #angel-menu a{
-      color:#ffffff;
-      text-decoration:none;
-      text-transform:uppercase;
-    }
-
-
-    #angel-menu ul{
-      display:flex;
-      flex-direction: row;
-      font-size: 2rem;
-      justify-content: space-evenly;
-      text-align:center;
-
-    }
+  #angel-menu{
+    visibility: hidden;
+  }
 
   /* overview */
 
@@ -462,7 +440,7 @@ padding: 5rem 0;
 
   /* Discovery & Research */
 
-    #problem #solutions #research{
+  #problem #solutions #research{
     margin:0 auto;
     width:80%;
     }
@@ -471,56 +449,56 @@ padding: 5rem 0;
     /* Research */
 
 
-      #research img{
-        padding:0;
-      }
-      #research .survey-results{
-        display:grid;
-        grid-gap: 2rem;
-        grid-template-columns: 6fr 6fr;
-        grid-template-areas:
-        "result 1"
-        "result 2"
-        "result 3"
-        "result 4";
-        padding-top:4rem;
-      }
-
-    #research .SWOT{
-      margin: 0 auto;
-      padding:4rem 0;
+  #research img{
+    padding:0;
     }
+
+  #research .survey-results{
+    display:grid;
+    grid-gap: 2rem;
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas:
+    "result 1"
+    "result 2"
+    "result 3"
+    "result 4";
+    padding-top:4rem;
+  }
+
+  #research .SWOT{
+    margin: 0 auto;
+    padding:4rem 0;
+  }
 
 
 
 /* Information Architecture */
 
-#ia{
-  padding: 5rem 0;
-}
-
-#ia .flex-container{
-    align-items: flex-start;
-    display: flex;
-    flex-direction:row;
-    padding: 0;
+  #ia{
+    padding: 5rem 0;
   }
 
+  #ia .flex-container{
+      align-items: flex-start;
+      display: flex;
+      flex-direction:row;
+      padding: 0;
+  }
 
- #ia img{
+  #ia img{
     padding:0 2rem;
-}
+  }
 
- #ia, #us, #uf, #sketches, #wireframes{
-    flex: 1 1 50%;
- }
+  #ia, #us, #uf, #sketches, #wireframes{
+      flex: 1 1 50%;
+    }
 
-#uf, #sketches{
+  #uf, #sketches{
   padding-right: 2rem;
-}
-#us, #wireframes{
-  padding-left: 2rem;
-}
+    }
+  #us, #wireframes{
+    padding-left: 2rem;
+  }
 
 
 /* Visual Design */
@@ -624,23 +602,27 @@ padding: 5rem 0;
 
     #angel-menu{
       background-color:#6D494F;
-      margin:0 auto;
       padding:2rem 0;
       width:100%;
+      visibility: visible;
     }
 
     #angel-menu a{
       color:#ffffff;
+      padding: 0 2rem;
       text-decoration:none;
       text-transform:uppercase;
     }
-
+    #angel-menu a: hover{
+      font-weight: bold;
+    }
 
     #angel-menu ul{
       display:flex;
       flex-direction: row;
       font-size: 2rem;
       justify-content: space-evenly;
+      margin:0 auto;
       text-align:center;
 
     }
@@ -658,19 +640,12 @@ padding: 5rem 0;
 
 
 
-
   /* Discovery */
 
   #problem, #solutions {
     width:60%;
   }
 
-  .security-img{
-    display: inline;
-    float:right;
-    overflow: hidden;
-
-  }
 
   #discovery .flex-container{
     display: flex;
@@ -697,12 +672,12 @@ padding: 5rem 0;
     #research{
     margin:0 auto;
     width:60%;
-    }
+  }
 
 
     #research img{
       padding:0;
-    }
+  }
 
     #research .survey-results{
       display:grid;
@@ -714,7 +689,7 @@ padding: 5rem 0;
       "result 3"
       "result 4";
       padding-top:4rem;
-    }
+  }
 
   #research .SWOT{
     margin: 0 auto;
@@ -724,32 +699,32 @@ padding: 5rem 0;
 
 /* Information Architecture */
 
-#ia{
-  padding: 5rem 0;
-}
+  #ia{
+    padding: 5rem 0;
+  }
 
-#ia .flex-container{
-    align-items: flex-start;
-    display: flex;
-    flex-direction:row;
-    padding: 0;
+  #ia .flex-container{
+      align-items: flex-start;
+      display: flex;
+      flex-direction:row;
+      padding: 0;
   }
 
 
- #ia img{
-    padding:0 2rem;
-}
+    #ia img{
+      padding:0 2rem;
+  }
 
- #ia, #us, #uf, #sketches, #wireframes{
-    flex: 1 1 50%;
- }
+    #ia, #us, #uf, #sketches, #wireframes{
+      flex: 1 1 50%;
+  }
 
-#uf, #sketches{
-  padding-right: 2rem;
-}
-#us, #wireframes{
-  padding-left: 2rem;
-}
+    #uf, #sketches{
+      padding-right: 2rem;
+  }
+    #us, #wireframes{
+      padding-left: 2rem;
+  }
 
 
 
@@ -769,8 +744,6 @@ padding: 5rem 0;
 
 
 
-
-
   /* Conclusion */
   #conclusion p{
     margin: 0 auto;
@@ -780,7 +753,7 @@ padding: 5rem 0;
 
   /* Footer */
   #myFooter .social-networks {
-  text-align: right;
+    text-align: right;
   }
 
 }
