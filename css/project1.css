@@ -153,7 +153,9 @@ ul{
 
 /* Case Study Navigation */
 #angel-menu{
+  height: 0;
   visibility: hidden;
+  width:0;
 }
 
 /* overview */
@@ -233,7 +235,7 @@ padding: 5rem 0;
 
 
 
-#research .survey-result img{
+#research .survey-results{
   display: block;
   margin: 0 auto;
   padding-top:2rem;
@@ -427,18 +429,6 @@ padding: 5rem 0;
   }
 
 
-
-
-  /* Discovery */
-
-
-  .solution{
-    margin: 0 auto;
-    width: 40%;
-  }
-
-
-
   /* Discovery & Research */
 
   #problem #solutions #research{
@@ -521,6 +511,8 @@ padding: 5rem 0;
     margin: 0 auto;
     width: 80%;
   }
+
+
 
 
       /* DESKTOP */
