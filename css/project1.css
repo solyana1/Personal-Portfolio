@@ -44,7 +44,6 @@ header a{
 
 header li{
   display:inline;
-  float: left;
   font-size: 1rem;
   padding:0 1rem;
 }
@@ -71,7 +70,8 @@ header #logo{
 #contact-menu button{
   background-color:#fff;
   border: .2rem solid #B76E79;
-  margin-top:3rem;
+  margin-top:2.5rem;
+  padding: 0.5rem;
 }
 
 ul{
@@ -80,23 +80,22 @@ ul{
 
 /* hero unit*/
 #intro h1{
-  border-bottom: solid .5rem #6D494F;
+  border-bottom: .1rem solid #97676F;
   color:#002194;
   font-size: 2.4rem;
   margin: 0 auto;
-  padding-top: 2.5rem;
+  padding-top:5rem;
   text-align:center;
 }
 
 #intro p{
-  margin-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 #hero img{
   display: block;
   margin: auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
   width: 80%;
 }
 
@@ -108,7 +107,7 @@ ul{
 
 /* specs */
 #specs{
-  background-image:url(../images/background.svg);
+  background-color:#c3c3bb;
 }
 
 .flex-container {
@@ -161,25 +160,37 @@ padding: 5rem 0;
 #overview p{
   padding-top: 2rem;
   padding-bottom: 2rem;
-  text-align: center;
 }
 
-#overview button{
+#overview button, #visual button{
   background-color:#97676F;
-  border-radius: 3px;
-  color:#fff;
-  display: block;
+  color: #ffffff;
+  display:block;
+  text-decoration: none;
+  text-transform: uppercase;
   height:10%;
   margin: 0 auto;
-  padding:1rem;
+  opacity:0.85;
+  padding:1.5rem;
+  transition: .3s;
+  width:13rem;
+}
+
+#overview button a, #visual button a{
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
   text-transform: uppercase;
-  width:20rem;
+}
+
+#overview button:hover, #visual button:hover{
+  opacity:1;
 }
 
 
 /* Discovery */
 #discovery{
-  background-color:#F2F3F4;
+  background-color:#ECECE7;
   padding: 5rem 0;
 }
 
@@ -187,41 +198,40 @@ padding: 5rem 0;
   width:70%;
 }
 
-#discovery img{
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 4rem;
-}
-
-#discovery .solution{
-  margin: 0 auto;
-  width:50%;
-}
-
-#solutions{
+#discovery #project p{
   padding-bottom: 5rem;
 }
 
-.solution span{
-  background: #B4E1FF;
-  border-radius: 50%;
-  height:3rem;
-  margin: 5rem 0;
-  padding:2rem;
-  width:3rem;
+#problem img{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  width:60%;
 }
+
+#solutions ol {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+
 
 /* Research */
 #research{
   padding: 5rem 0;
   }
 
-#research img{
+#results img{
   display: block;
   overflow: hidden;
   margin:0 auto;
-  padding: 1rem;
-  width:60%;
+  padding: .5rem;
+  width:90%;
   }
 
 #results{
@@ -237,26 +247,45 @@ padding: 5rem 0;
   padding-bottom: 2rem;
 }
 
-#research a{
-  font-size: 1rem;
+#research a, #ia a{
+  color: #97676F;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity:0.8;
+  padding: 1rem;
   text-align: center;
+  text-decoration:none;
+  text-transform: uppercase;
 }
 
+#research a:hover, #ia a:hover{
+  opacity: 1;
+}
+
+#research button, #ia button{
+  background-color:#f4f4f4;
+}
+
+#SWOT h5{
+  padding-top: 5rem;
+}
+
+#SWOT img{
+  display: block;
+  margin: 0 auto;
+  padding: 3rem 0;
+  width: 100%;
+}
 
 /* Info Architecture */
 #ia{
-  background-color:#F2F3F4;
+  background-color:#ECECE7;
   padding: 5rem 0;
 }
 
 #ia img{
-  padding:2rem 0;
+  padding-top:2rem 0;
   width:100%;
-}
-
-#ia a{
-  font-size:1rem;
-  text-align: center;
 }
 
 
@@ -267,8 +296,7 @@ padding: 5rem 0;
 
 #visual img{
   margin: 0 auto;
-  padding: 2rem 0;
-  overflow: hidden;
+  padding: 2rem;
   width:100%;
 }
 
@@ -277,11 +305,28 @@ padding: 5rem 0;
   text-align: center;
 }
 
+#visual #ptest{
+  color: #6D494F;
+  padding-top: 3rem;
+  font-weight: bold;
+}
 
+#visual span{
+  color: #6D494F;
+  font-weight: bold;
+}
+
+#visual #ptest span{
+  text-decoration: underline;
+}
+
+#visual button{
+  margin-top: 3rem;
+}
 
 /* Conclusion */
 #conclusion{
-  background-color:#F2F3F4;
+  background-color:#ECECE7;
   padding: 5rem 0;
 }
 
@@ -359,7 +404,7 @@ padding: 5rem 0;
     /*TABLET */
 @media screen and (min-width: 575px){
 
-  /* Header */
+/* Header */
   #logo img{
      width:3.5rem;
    }
@@ -372,10 +417,6 @@ padding: 5rem 0;
      font-size: 1.2rem;
    }
 
-   #contact-menu button a:hover{
-     font-weight: bold;
-   }
-
    #hero img{
      width:60%;
    }
@@ -386,15 +427,15 @@ padding: 5rem 0;
   }
 
 
-    #intro p{
-      margin:0 auto;
-      width:80%;
-    }
+  #intro p{
+    margin:0 auto;
+    width:80%;
+  }
 
 
 /* specs */
 
-#spec1, #spec2, #spec3{
+  #spec1, #spec2, #spec3{
     margin: 0 auto;
     width:40%;
   }
@@ -405,7 +446,7 @@ padding: 5rem 0;
     visibility: hidden;
   }
 
-  /* overview */
+/* overview */
 
   #overview img{
     width:30%;
@@ -416,20 +457,32 @@ padding: 5rem 0;
     width: 80%;
   }
 
-
-  /* Discovery & Research */
-
-  #problem #solutions #research{
-    margin:0 auto;
-    width:80%;
-    }
-
-  /* Discovery */
-  #discovery .security-img{
-    width:50%;
+  #overview button, #visual button{
+    font-size: 1.4rem;
+    height: 12%;
+    width: 18rem;
   }
 
-    /* Research */
+  #overview button a, #visual button a{
+      font-size: 1.2rem;
+    }
+
+
+/* Discovery & Research */
+
+  #solution1, #solution2, #solution3{
+    margin: 0 auto;
+    width:40%;
+    }
+
+
+/* Discovery */
+  #discovery .security-img{
+    width:50%;
+    padding-top: 3rem;
+  }
+
+/* Research */
 
   #research .survey-results img{
    display: block;
@@ -438,31 +491,20 @@ padding: 5rem 0;
    width:100%;
    }
 
-  #research .swot img{
-   display: block;
-   overflow: hidden;
-   margin:0 auto;
-   width:60%;
-   }
-
    #research .survey-results{
-       display:grid;
-       grid-gap: 2rem;
-       grid-template-columns: 6fr 6fr;
-       grid-template-areas:
-       "result 1"
-       "result 2"
-       "result 3"
-       "result 4";
-       padding-top:4rem;
+   display:grid;
+   grid-gap: 2rem;
+   grid-template-areas:
+    "result 1"
+    "result 2"
+    "result 3"
+    "result 4";
+   padding-top:4rem;
    }
 
-  #research .SWOT{
-    margin: 0 auto;
-    padding:4rem 0;
-  }
-
-
+   #SWOT img{
+     width: 60%;
+   }
 
 /* Information Architecture */
 
@@ -477,10 +519,6 @@ padding: 5rem 0;
       padding: 0;
   }
 
-  #ia img{
-    padding:0 2rem;
-  }
-
   #ia .persona img{
     width:100%;
   }
@@ -492,6 +530,7 @@ padding: 5rem 0;
   #uf, #sketches{
   padding-right: 2rem;
     }
+
   #us, #wireframes{
     padding-left: 2rem;
   }
@@ -510,8 +549,12 @@ padding: 5rem 0;
     flex-direction: row;
   }
 
+  #visual .paper-sketch, #visual .figma-sketch{
+    width:50%;
+  }
 
-  /* Conclusion */
+
+/* Conclusion */
   #conclusion p{
     margin: 0 auto;
     width: 80%;
@@ -524,19 +567,19 @@ padding: 5rem 0;
 
 @media screen and (min-width: 1200px){
 
-  /* global */
+/* global */
 
   body{
   font-size: 2.4rem;
   }
 
   #research a, #ia a, #visual a{
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
-  /* Header */
+/* Header */
   #logo img{
-     width:4rem;
+     width:4.5rem;
    }
 
   header li{
@@ -547,33 +590,42 @@ padding: 5rem 0;
     font-size:1.5rem;
   }
 
+  .menu{
+    margin-top:4rem;
+  }
+
+  #contact-menu button{
+    margin-top: 3rem;
+  }
+
   #contact-menu a{
     font-size: 1.5rem;
   }
 
 
   /* hero unit*/
-
   #intro h1{
     font-size: 4rem;
-    padding-top: 5rem;
   }
 
   #intro p{
+    float: left;
     margin:0 auto;
-    padding-bottom: 5rem;
-    width:50%;
+    max-width: 500px;
+    padding: 10rem 0;
+    width: 55%;
   }
 
   #hero img{
-    display: block;
-    margin: auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 10rem 0;
+    width: 45%;
   }
 
-  /* specs */
+
+
+/* specs */
   #specs .flex-container {
     flex: 1 2 auto;
     flex-direction:row;
@@ -582,23 +634,27 @@ padding: 5rem 0;
     width:90%;
   }
 
+  #specs h5{
+    font-size: 2.5rem;
+  }
 
   #specs p{
-    font:1.8px;
+    font:1.8rem;
     }
 
 
   #spec1, #spec2, #spec3{
-      width:25%;
-      padding:8rem 5rem;
+      padding:10rem 5rem;
+      width:30%;
     }
 
-  /* Angel Menu */
-  #angel-menu{
+
+/* Angel Menu */
+  #angel-menu {
     background-color:#6D494F;
     padding-top:2rem;
     padding-bottom: 5rem;
-    position: absolute;
+    /* position:fixed; */
     width:100%;
     visibility: visible;
   }
@@ -610,9 +666,6 @@ padding: 5rem 0;
     text-transform:uppercase;
   }
 
-  #angel-menu a: hover{
-    font-weight: bold;
-  }
 
   #angel-menu ul{
     display:flex;
@@ -627,7 +680,7 @@ padding: 5rem 0;
   }
 
 
-  /* overview */
+/* overview */
   #overview h4{
     padding-top: 5rem;
   }
@@ -641,67 +694,62 @@ padding: 5rem 0;
     width: 60%;
   }
 
-
-  /* Discovery */
-  #problem, #solutions {
-    width:60%;
+  #overview button, #visual button{
+    font-size: 1.8rem;
+    height:15%;
+    width:20rem;
   }
 
-  #discovery .flex-container{
-    display: flex;
-    align-items:flex-start;
-    flex-direction:row;
+  #overview button a, #visual button a{
+      font-size: 1.4rem;
+    }
+
+  /* Discovery */
+  #discovery #project{
     margin: 0 auto;
-    width:80%;
+    width: 60%;
   }
 
   #discovery .security-img{
-    width:30%;
+    width:50%;
   }
 
-  #disovery .solution{
+  #problem, #solutions {
     margin: 0 auto;
-    width: 100%;
+    width:60%;
   }
+
+
+  #discovery .flex-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width:60%;
+  }
+
 
   #solutions{
     overflow: hidden;
     padding-bottom: 5rem;
-    width:50rem;
   }
 
 
-  /* Research */
-    #research{
+/* Research */
+  #research{
     margin:0 auto;
     width:60%;
   }
 
 
-  #research img{
+  #results img{
    overflow: hidden;
    margin:0 auto;
    padding: 0;
    width:100%;
    }
 
-  #research .survey-results{
-      display:grid;
-      grid-gap: 2rem;
-      grid-template-columns: 6fr 6fr;
-      grid-template-areas:
-      "result 1"
-      "result 2"
-      "result 3"
-      "result 4";
-      padding-top:4rem;
-  }
-
-  #research .SWOT{
-    margin: 0 auto;
-    padding:4rem 0;
-    width:50%;
-   }
 
 /* Information Architecture */
 
@@ -716,18 +764,19 @@ padding: 5rem 0;
       padding: 0;
   }
 
-    #ia img{
-      padding:0 2rem;
+  #ia img{
+      padding-top: 2rem;
   }
 
-    #ia, #us, #uf, #sketches, #wireframes{
+  #ia, #us, #uf, #sketches, #wireframes{
       flex: 1 1 50%;
   }
 
-    #uf, #sketches{
+  #uf, #sketches{
       padding-right: 2rem;
   }
-    #us, #wireframes{
+
+  #us, #wireframes{
       padding-left: 2rem;
   }
 
@@ -746,16 +795,20 @@ padding: 5rem 0;
   }
 
 
-  /* Conclusion */
+/* Conclusion */
   #conclusion p{
     margin: 0 auto;
     width: 60%;
   }
 
 
-  /* Footer */
+/* Footer */
   #myFooter .social-networks {
     text-align: right;
+  }
+
+  #myFooter .footer-copyright p{
+    font-size: 1.4rem;
   }
 
 }

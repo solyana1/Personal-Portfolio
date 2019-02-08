@@ -10,14 +10,12 @@ html{
   font-size: 10px;
 }
 
-
 .container{
   margin:0 auto;
   text-align: center;
   width:80%;
   overflow: hidden;
 }
-
 
 p{
   line-height: 1.5;
@@ -54,9 +52,9 @@ header #logo{
 #contact-menu button{
   background-color:#fff;
   border: .2rem solid #B76E79;
-  margin-top:3rem;
+  margin-top:2.5rem;
+  padding: 0.5rem;
 }
-
 
 ul{
   float: right;
@@ -64,7 +62,6 @@ ul{
 
 header{
   padding-bottom: 1.5rem;
-
 }
 
 header a{
@@ -82,8 +79,7 @@ header a: hover{
 /* About Me */
 
 #about-me{
-  background-image: url(../images/background.svg);
-  overflow: hidden;
+  background-color:#c3c3bb;
 }
 
 .personal-photo{
@@ -113,10 +109,7 @@ h4{
   text-align: left;
 }
 
-
-
 /* Footer */
-
 
 #myFooter .footer-copyright{
 	padding-top:3px;
@@ -182,7 +175,8 @@ h4{
 	color: #333;
 }
 
-/* TABLET  */
+
+      /* TABLET  */
 
 @media screen and (min-width:575px){
 
@@ -212,11 +206,10 @@ h4{
 
 }
 
-/* DESKTOP */
+      /* DESKTOP */
 @media screen and (min-width:1200px){
 
-  /* global */
-
+/* global */
 
   h3{
     font-size:3.6rem;
@@ -234,14 +227,10 @@ h4{
     width:60%;
   }
 
-
    #description{
-     padding-top: 10rem;
-    width:50%;
+   padding-top: 10rem;
+   width:50%;
   }
-
-
-
 
   #flex-container{
     display: flex;
@@ -249,9 +238,9 @@ h4{
     margin: 0 auto;
   }
 
-  /* Header */
+/* Header */
   #logo img{
-     width:4rem;
+     width:4.5rem;
    }
 
   header li{
@@ -262,14 +251,26 @@ h4{
     font-size:1.5rem;
   }
 
+  .menu{
+    margin-top:4rem;
+  }
+
+  #contact-menu button{
+    margin-top: 3rem;
+  }
+
   #contact-menu a{
     font-size: 1.5rem;
   }
 
-
-
-  /* Footer */
+/* Footer */
   #myFooter .social-networks {
     padding-top: 2rem;
     text-align: right;
   }
+
+  #myFooter .footer-copyright p{
+    font-size: 1.4rem;
+  }
+
+}
