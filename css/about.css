@@ -1,0 +1,318 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/* global */
+
+html{
+  color:#353535;
+  font-family: muli;
+  font-size: 10px;
+}
+
+.container{
+  margin:0 auto;
+  text-align: center;
+  width:80%;
+  overflow: hidden;
+}
+
+p{
+  line-height: 1.5;
+}
+
+/* header */
+#logo img{
+   width:3rem;
+ }
+
+header a{
+  color:#B9459E;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+header li{
+  display:inline;
+  font-size: 1rem;
+  padding:0 1rem;
+}
+
+header #logo{
+  float: left;
+  margin-top:2.5rem;
+}
+
+.menu a:hover{
+  color:#B9459E;
+  font-weight: bold;
+}
+
+.menu{
+  margin-top:3.4rem;
+}
+
+#contact-menu a{
+  color: #B9459E;
+  text-decoration: none;
+}
+
+#contact-menu button{
+  background-color:transparent;
+  border: .2rem solid #B9459E;
+  margin-top:2.5rem;
+  padding: 0.5rem;
+}
+
+ul{
+  float: right;
+}
+
+
+/* About Me */
+
+#about-me{
+  background-color:#B9459E;
+  margin-top: 3rem;
+}
+
+.personal-photo{
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5rem 0;
+  width:70%;
+}
+
+h3{
+  color: #fff;
+  font-family: Oswald;
+  font-size:2.4rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+h4{
+  font-family:Oswald;
+  font-size:2.2rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+#description p{
+  font-size:1.8rem;
+  padding bottom: 5rem;
+  text-align: left;
+}
+
+
+/* Footer */
+#myFooter .footer-copyright{
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	padding-top: 15rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#myFooter .social-networks a{
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #B9459E;
+    padding: .2rem;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .email:hover{
+  color:#F4C056;
+}
+
+#myFooter .linkedin:hover{
+	color:#0077b5;
+}
+
+#myFooter .twitter:hover{
+	color:#00aced;
+}
+
+#myFooter .github:hover{
+	color: #333;
+}
+
+
+      /* TABLET  */
+
+@media screen and (min-width:575px){
+
+  /* Header */
+  #logo img{
+     width:3.5rem;
+   }
+
+
+   header a{
+     font-size:1.2rem;
+   }
+
+   #contact-menu a{
+     font-size: 1.2rem;
+   }
+
+
+   .personal-photo{
+     width:40%;
+   }
+
+   h3{
+     font-size:3rem;
+   }
+
+
+   /* About-me */
+   #description{
+   margin: 0 auto;
+   width:80%;
+  }
+
+   /* Footer */
+    #myFooter .social-networks .email{
+      font-size: 2.5rem;
+    }
+
+     #myFooter .social-networks .linkedin{
+       font-size: 2.5rem;
+     }
+
+     #myFooter .social-networks .twitter{
+       font-size: 2.5rem;
+     }
+
+     #myFooter .social-networks .github{
+       font-size: 2.5rem;
+     }
+
+     #myFooter .footer-copyright p{
+       font-size: 1.2rem;
+     }
+
+}
+
+      /* DESKTOP */
+@media screen and (min-width:1200px){
+
+/* global */
+
+  h3{
+    font-size:3.6rem;
+  }
+
+  h4{
+    font-size:2.4;
+  }
+
+  #content{
+    display:inline;
+  }
+
+  .personal-photo{
+    padding-left: 15rem;
+    padding-top: 10rem;
+    width:100%;
+  }
+
+  #flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+/* Header */
+  #logo img{
+     width:4.5rem;
+   }
+
+  header li{
+    padding: 0 2rem;
+  }
+
+  header a{
+    font-size:1.5rem;
+  }
+
+  .menu{
+    margin-top:4rem;
+  }
+
+  #contact-menu button{
+    margin-top: 3rem;
+  }
+
+  #contact-menu a{
+    font-size: 1.5rem;
+  }
+
+
+  /* About-me */
+  #description{
+    padding-top: 10rem;
+    margin: 0 auto;
+    width:50%;
+  }
+  /* Footer */
+
+    #myFooter .footer-copyright p{
+      font-size: 1.4rem;
+    }
+
+    #myFooter .social-networks .email{
+      font-size: 3rem;
+    }
+
+    #myFooter .social-networks .linkedin{
+      font-size: 3rem;
+    }
+
+    #myFooter .social-networks .twitter{
+      font-size: 3rem;
+    }
+
+    #myFooter .social-networks .github{
+      font-size: 3rem;
+    }
+
+}

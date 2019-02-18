@@ -1,0 +1,461 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/*global*/
+
+html{
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body{
+  color:#353535;
+  font-family: muli;
+  line-height: 1.25;
+}
+
+.container{
+  margin:auto;
+  overflow:hidden;
+  text-align: center;
+  width:80%;
+}
+
+h1{
+  color:#f1f2f3;
+  font-family:Oswald;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top:10rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  color:#DBD6D6;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+  width: 80%;
+}
+
+h4{
+  font-family:Oswald;
+  font-weight: bold;
+  color:#353535;
+}
+/* Selected Work */
+
+#selected-work h3{
+  color:#353535;
+}
+
+/* Buttons */
+
+#selected-work a, #connect a{
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+#selected-work button, #connect button{
+  background-color:#B9459E;
+  border: .1rem solid #B9459E;
+  height:10%;
+  margin-top:2rem;
+  padding:.7rem;
+  opacity:0.8;
+  transition: .3s;
+  width:13rem;
+}
+
+#selected-work button:hover, #connect button:hover{
+  opacity:1;
+}
+
+
+/* Hero Unit */
+
+#hero{
+  background-image: url(../images/hero-image1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100% auto;
+}
+
+/*Header*/
+
+#fixednav {
+  overflow: hidden;
+  width:100%;
+}
+
+#logo img{
+  margin-top:2.5rem;
+  margin-bottom: 1rem;
+  width:3rem;
+}
+
+
+header a{
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:1rem;
+}
+
+
+header li{
+  display:inline;
+  float: left;
+  margin:0 ;
+  padding:0 1rem;
+  text-transform: uppercase;;
+}
+
+header #logo{
+  float: left;
+  margin: 0;
+}
+
+.menu a:hover{
+  font-weight: bold;
+}
+
+.menu{
+  margin-top:3.4rem;
+}
+
+#contact-menu a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact-menu a:hover{
+  font-weight: bold;
+}
+
+#contact-menu button{
+  background-color: Transparent;
+  border: .2rem solid #fff;
+  margin-top:2.5rem;
+  padding: 0.5rem;
+}
+
+ul{
+  float: right;
+}
+
+header h5{
+  font-size: 1.2rem;
+}
+
+header #caret{
+  visibility: hidden;
+}
+
+
+/* Selected Work */
+
+#selected-work img{
+  width:80%;
+}
+
+h3{
+  font-family: Oswald;
+  font-size: 2.4rem;
+  padding: 3rem 0;
+}
+
+h4{
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+p{
+  font-size: 1.6rem;
+
+}
+
+#selected-work{
+  padding-bottom: 3rem;
+}
+
+
+/* Let's Connect*/
+#connect{
+  background:#CCC;
+}
+
+#connect button{
+  padding-top: 2rem;
+}
+
+
+/* Footer */
+
+
+#myFooter .footer-copyright{
+	padding-top:3rem;
+	padding-bottom:1rem;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#myFooter ul{
+	list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .social-networks{
+	padding: 2rem 0;
+  text-align: center;
+}
+
+#myFooter .social-networks a{
+    font-size: 2rem;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #B9459E;
+    padding: .2rem;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+}
+
+#myFooter .linkedin:hover{
+	color:#0077b5;
+}
+
+#myFooter .twitter:hover{
+	color:#00aced;
+}
+
+#myFooter .github:hover{
+	color: #333;
+}
+
+
+    /* TABLET */
+
+@media screen and (min-width:575px) {
+
+/* Global */
+
+   h1{
+     font-size:4rem;
+     margin-top:15rem;
+   }
+
+   h2{
+     font-size:2rem;
+     margin-top:2rem;
+     margin-bottom: 15rem;
+   }
+
+   h3{
+     font-size:3rem;
+   }
+
+
+/* Hero */
+ #logo img{
+    width:3.5rem;
+  }
+
+
+  header a{
+    font-size:1.2rem;
+  }
+
+  #contact-menu a{
+    font-size: 1.2rem;
+  }
+
+  header .fa-map-marker{
+    font-size: 3rem;
+  }
+
+  header h5{
+    font-size: 1.5rem;
+  }
+
+
+
+/* Selected Work  */
+
+   #selected-work h4{
+     font-size: 2rem;
+   }
+
+   #selected-work p, #connect p{
+     font-size: 2rem;
+
+     }
+
+   #selected-work a, #connect a{
+       font-size: 1.2rem;
+     }
+
+   #selected-work button, #connect button{
+     font-size: 1.2rem;
+     padding: 1rem;
+     height:12%;
+     width:15rem;
+    }
+ }
+
+/* Footer */
+#myFooter .social-networks .linkedin{
+  font-size: 2.5rem;
+}
+
+#myFooter .social-networks .twitter{
+  font-size: 2.5rem;
+}
+
+#myFooter .social-networks .github{
+  font-size: 2.5rem;
+}
+
+#myFooter .footer-copyright p{
+  font-size: 1.2rem;
+}
+
+      /* DESKTOP */
+
+@media screen and (min-width:1200px) {
+
+/* Global  */
+  h1{
+    font-size:4.8rem;
+    margin-top:25rem;
+  }
+
+  h2{
+    font-size:3rem;
+    margin-top:3rem;
+    width:70%;
+  }
+
+
+/* Header */
+  #logo .initials{
+     width:4.5rem;
+   }
+
+  header li{
+    padding: 0 2rem;
+  }
+
+  header a{
+    font-size:1.5rem;
+  }
+
+  .menu{
+    margin-top:4rem;
+  }
+
+  #contact-menu button{
+    margin-top: 3rem;
+  }
+
+  #contact-menu a{
+    font-size: 1.5rem;
+  }
+
+  #hero #caret{
+    padding-bottom: 2rem;
+  }
+
+  #hero #caret a{
+    font-size: 6rem;
+    color:#fff;
+    visibility: visible;
+  }
+
+
+/* Selected Work */
+
+  #selected-work h3{
+    font-size:3.6rem;
+  }
+
+  #selected-work h4{
+    font-size: 2.4rem;
+    padding-top: 0;
+  }
+
+  #selected-work img{
+    float:left;
+    margin-left: 10%;
+    padding: 5rem 0;
+    width:50%;
+  }
+
+  #selected-work #description{
+    float:left;
+    padding: 8rem 0;
+    padding-left: 2rem;
+    text-align: left;
+    width: 30%;
+  }
+
+
+  #selected-work a, #connect a{
+      font-size: 1.4rem;
+    }
+
+  #selected-work button, #connect button{
+    font-size: 1.2rem;
+    height:15%;
+    width:20rem;
+    }
+
+
+/* Footer */
+
+  #myFooter .footer-copyright{
+	text-align: center;
+  }
+
+  #myFooter .footer-copyright p{
+    font-size: 1.4rem;
+  }
+
+  #myFooter .social-networks .linkedin{
+    font-size: 3rem;
+  }
+
+  #myFooter .social-networks .twitter{
+    font-size: 3rem;
+  }
+
+  #myFooter .social-networks .github{
+    font-size: 3rem;
+  }
+
+}
