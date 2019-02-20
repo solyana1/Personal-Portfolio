@@ -7,11 +7,17 @@
 
 html{
   font-size: 10px;
+<<<<<<< HEAD
   scroll-behavior: smooth;
 }
 
 body{
   color:#353535;
+=======
+}
+
+body{
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-family: muli;
   line-height: 1.25;
 }
@@ -41,7 +47,10 @@ h2{
 }
 
 h4{
+<<<<<<< HEAD
   font-family:Oswald;
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-weight: bold;
   color:#353535;
 }
@@ -62,12 +71,21 @@ h4{
 
 
 #selected-work button, #connect button{
+<<<<<<< HEAD
   background-color:#B9459E;
   border: .1rem solid #B9459E;
   height:10%;
   margin-top:2rem;
   padding:.7rem;
   opacity:0.8;
+=======
+  background-color:#97676F;
+  border: .1rem solid #97676F;
+  height:10%;
+  margin-top:2rem;
+  padding:.7rem;
+  opacity:0.9;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   transition: .3s;
   width:13rem;
 }
@@ -80,7 +98,11 @@ h4{
 /* Hero Unit */
 
 #hero{
+<<<<<<< HEAD
   background-image: url(../images/hero-image1.png);
+=======
+  background-image: url(../images/hero-image1.jpg);
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,6 +145,10 @@ header #logo{
 }
 
 .menu a:hover{
+<<<<<<< HEAD
+=======
+  color:#B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-weight: bold;
 }
 
@@ -131,7 +157,11 @@ header #logo{
 }
 
 #contact-menu a{
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   text-decoration: none;
 }
 
@@ -141,7 +171,12 @@ header #logo{
 
 #contact-menu button{
   background-color: Transparent;
+<<<<<<< HEAD
   border: .2rem solid #fff;
+=======
+  border: .2rem solid #B76E79;
+  font-weight: bold;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   margin-top:2.5rem;
   padding: 0.5rem;
 }
@@ -150,6 +185,15 @@ ul{
   float: right;
 }
 
+<<<<<<< HEAD
+=======
+header .fa-map-marker{
+  color:#B76E79;
+  font-size: 2rem;
+  padding-right: 0.5rem;
+}
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 header h5{
   font-size: 1.2rem;
 }
@@ -188,11 +232,16 @@ p{
 
 /* Let's Connect*/
 #connect{
+<<<<<<< HEAD
   background:#CCC;
 }
 
 #connect button{
   padding-top: 2rem;
+=======
+  background:#A6A6A0;
+  color: #fff;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 }
 
 
@@ -200,8 +249,13 @@ p{
 
 
 #myFooter .footer-copyright{
+<<<<<<< HEAD
 	padding-top:3rem;
 	padding-bottom:1rem;
+=======
+	padding-top:3px;
+	padding-bottom:3px;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 	text-align: center;
 }
 
@@ -228,22 +282,42 @@ p{
 	color:white;
 }
 
+<<<<<<< HEAD
 #myFooter .social-networks{
 	padding: 2rem 0;
+=======
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	padding-top: 3rem;
+  padding-bottom: 2rem;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   text-align: center;
 }
 
 #myFooter .social-networks a{
     font-size: 2rem;
+<<<<<<< HEAD
     margin-right: 2px;
     margin-left: 2px;
     color: #B9459E;
+=======
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
     padding: .2rem;
     transition: 0.2s;
 }
 
 #myFooter .social-networks a:hover{
 	text-decoration: none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 }
 
 #myFooter .linkedin:hover{
@@ -311,7 +385,11 @@ p{
      font-size: 2rem;
    }
 
+<<<<<<< HEAD
    #selected-work p, #connect p{
+=======
+   #selected-work P{
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
      font-size: 2rem;
 
      }
@@ -328,6 +406,7 @@ p{
     }
  }
 
+<<<<<<< HEAD
 /* Footer */
 #myFooter .social-networks .linkedin{
   font-size: 2.5rem;
@@ -344,6 +423,8 @@ p{
 #myFooter .footer-copyright p{
   font-size: 1.2rem;
 }
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 
       /* DESKTOP */
 
@@ -393,7 +474,11 @@ p{
 
   #hero #caret a{
     font-size: 6rem;
+<<<<<<< HEAD
     color:#fff;
+=======
+    color:#B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
     visibility: visible;
   }
 
@@ -404,11 +489,22 @@ p{
     font-size:3.6rem;
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   #selected-work h4{
     font-size: 2.4rem;
     padding-top: 0;
   }
 
+<<<<<<< HEAD
+=======
+  #selected-work p{
+    font-size: 2rem;
+    }
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   #selected-work img{
     float:left;
     margin-left: 10%;
@@ -438,6 +534,13 @@ p{
 
 /* Footer */
 
+<<<<<<< HEAD
+=======
+  #myFooter .social-networks {
+  text-align: right;
+  }
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   #myFooter .footer-copyright{
 	text-align: center;
   }
@@ -446,6 +549,7 @@ p{
     font-size: 1.4rem;
   }
 
+<<<<<<< HEAD
   #myFooter .social-networks .linkedin{
     font-size: 3rem;
   }
@@ -458,4 +562,6 @@ p{
     font-size: 3rem;
   }
 
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 }

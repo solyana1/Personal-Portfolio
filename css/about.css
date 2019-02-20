@@ -6,7 +6,10 @@
 /* global */
 
 html{
+<<<<<<< HEAD
   color:#353535;
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-family: muli;
   font-size: 10px;
 }
@@ -22,6 +25,7 @@ p{
   line-height: 1.5;
 }
 
+<<<<<<< HEAD
 body{
   font-size: 1.8rem;
 }
@@ -39,6 +43,13 @@ header a{
 
 header li{
   display:inline;
+=======
+/* header */
+
+header li{
+  display:inline;
+  float: left;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-size: 1rem;
   padding:0 1rem;
 }
@@ -49,7 +60,11 @@ header #logo{
 }
 
 .menu a:hover{
+<<<<<<< HEAD
   color:#B9459E;
+=======
+  color:#B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-weight: bold;
 }
 
@@ -58,13 +73,22 @@ header #logo{
 }
 
 #contact-menu a{
+<<<<<<< HEAD
   color: #B9459E;
+=======
+  color: #B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   text-decoration: none;
 }
 
 #contact-menu button{
+<<<<<<< HEAD
   background-color:transparent;
   border: .2rem solid #B9459E;
+=======
+  background-color:#fff;
+  border: .2rem solid #B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   margin-top:2.5rem;
   padding: 0.5rem;
 }
@@ -73,12 +97,34 @@ ul{
   float: right;
 }
 
+<<<<<<< HEAD
+=======
+header{
+  padding-bottom: 1.5rem;
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+header a: hover{
+  color:#A44935;
+  font-weight: bold;
+}
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 
 /* About Me */
 
 #about-me{
+<<<<<<< HEAD
   background-color:#B9459E;
   margin-top: 3rem;
+=======
+  background-color:#c3c3bb;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 }
 
 .personal-photo{
@@ -89,7 +135,10 @@ ul{
 }
 
 h3{
+<<<<<<< HEAD
   color: #fff;
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   font-family: Oswald;
   font-size:2.4rem;
   margin: 0 auto;
@@ -97,8 +146,13 @@ h3{
 }
 
 h4{
+<<<<<<< HEAD
   font-family:Oswald;
   font-size:2.2rem;
+=======
+  font-size:2.2rem;
+  color: #B76E79;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   padding-bottom: 1rem;
   text-align: left;
 }
@@ -109,8 +163,13 @@ h4{
   text-align: left;
 }
 
+<<<<<<< HEAD
 
 /* Footer */
+=======
+/* Footer */
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 #myFooter .footer-copyright{
 	padding-top:3px;
 	padding-bottom:3px;
@@ -128,6 +187,10 @@ h4{
     line-height: 1.7;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 #myFooter a{
 	color:#d2d1d1;
 	text-decoration: none;
@@ -143,7 +206,11 @@ h4{
 }
 
 #myFooter .social-networks{
+<<<<<<< HEAD
 	padding-top: 15rem;
+=======
+	padding-top: 10rem;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   padding-bottom: 2rem;
   text-align: center;
 }
@@ -152,7 +219,11 @@ h4{
     font-size: 2rem;
     margin-right: 5px;
     margin-left: 5px;
+<<<<<<< HEAD
     color: #B9459E;
+=======
+    color: #97676F;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
     padding: .2rem;
     transition: 0.2s;
 }
@@ -162,10 +233,13 @@ h4{
 
 }
 
+<<<<<<< HEAD
 #myFooter .email:hover{
   color:#F4C056;
 }
 
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 #myFooter .linkedin:hover{
 	color:#0077b5;
 }
@@ -183,10 +257,13 @@ h4{
 
 @media screen and (min-width:575px){
 
+<<<<<<< HEAD
   body{
     font-size: 2rem;
   }
 
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   /* Header */
   #logo img{
      width:3.5rem;
@@ -211,6 +288,7 @@ h4{
    }
 
 
+<<<<<<< HEAD
    /* About-me */
    #description{
    margin: 0 auto;
@@ -238,15 +316,20 @@ h4{
        font-size: 1.2rem;
      }
 
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 }
 
       /* DESKTOP */
 @media screen and (min-width:1200px){
 
 /* global */
+<<<<<<< HEAD
   body{
   font-size: 2.2rem;
   }
+=======
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 
   h3{
     font-size:3.6rem;
@@ -261,9 +344,18 @@ h4{
   }
 
   .personal-photo{
+<<<<<<< HEAD
     padding-left: 15rem;
     padding-top: 10rem;
     width:100%;
+=======
+    width:60%;
+  }
+
+   #description{
+   padding-top: 10rem;
+   width:50%;
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
   }
 
   #flex-container{
@@ -297,6 +389,7 @@ h4{
     font-size: 1.5rem;
   }
 
+<<<<<<< HEAD
 
   /* About-me */
   #description{
@@ -325,5 +418,16 @@ h4{
     #myFooter .social-networks .github{
       font-size: 3rem;
     }
+=======
+/* Footer */
+  #myFooter .social-networks {
+    padding-top: 2rem;
+    text-align: right;
+  }
+
+  #myFooter .footer-copyright p{
+    font-size: 1.4rem;
+  }
+>>>>>>> 67f52117681d3520c3650db3928f1ded0eea862b
 
 }
