@@ -11,6 +11,7 @@ html{
 
 body{
   font-family: 'Muli', sans-serif;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 
@@ -644,6 +645,10 @@ padding: 5rem 0;
 
     /*TABLET */
 @media screen and (min-width: 575px){
+/* Global  */
+  body{
+    font-size: 2rem;
+  }
 
 /* Header */
   #logo img{
@@ -840,7 +845,7 @@ padding: 5rem 0;
 /* global */
 
   body{
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   }
 
   #research a, #ia a, #visual a{
@@ -915,7 +920,7 @@ padding: 5rem 0;
 
   #spec1, #spec2, #spec3{
       padding:10rem 5rem;
-      width:30%;
+      width:33%;
     }
 
 
