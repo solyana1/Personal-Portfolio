@@ -51,6 +51,10 @@ h4{
   color:#353535;
 }
 
+#selected-work #image2 img{
+  padding-top: 5rem;
+  width:50%;
+}
 /* Buttons */
 
 #selected-work a, #connect a{
@@ -194,8 +198,6 @@ p{
 
 
 /* Footer */
-
-
 #myFooter .footer-copyright{
 	padding-top:1.5rem;
 	padding-bottom:1rem;
@@ -339,7 +341,7 @@ p{
 }
 
 
-      /* DESKTOP */
+/* DESKTOP */
 
 @media screen and (min-width:1200px) {
 
@@ -407,16 +409,22 @@ p{
     font-size: 2rem;
     }
 
-  #selected-work img{
+  #selected-work #image1 img{
     float:left;
-    margin-left: 10%;
+    margin-left: 20%;
     padding: 5rem 0;
-    width:50%;
+    width:35%;
+  }
+  #selected-work #image2 img{
+    float:left;
+    margin-left: 20%;
+    padding: 5rem 0;
+    width:35%;
   }
 
   #selected-work #description{
     float:left;
-    padding: 8rem 0;
+    padding: 5rem 0;
     padding-left: 2rem;
     text-align: left;
     width: 30%;
