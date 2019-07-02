@@ -350,7 +350,7 @@ padding: 5rem 0;
     }
 
 
-#typography #logo, #typography #brand{
+#typography #type, #typography #brand{
       font-family: Gentenium Book Basic;
     }
 
@@ -760,7 +760,7 @@ padding: 5rem 0;
     flex-wrap: nowrap;
     white-space: nowrap;
     font-size: 2rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin:0 auto;
     text-align:center;
     width: 100%;
