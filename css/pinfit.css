@@ -1,0 +1,1122 @@
+*,*:before, *:after
+{
+  box-sizing: border-box;
+}
+
+/*global*/
+html{
+  color:#353535;
+  font-size: 10px;
+}
+
+body{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+h4{
+  font-size:2.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color:#B9459E;
+}
+
+h5{
+  font:2rem;
+  padding-top:2rem;
+  font-weight: bold;
+}
+
+
+/* header */
+#logo img{
+   width:3rem;
+ }
+
+header a{
+  color:#B9459E;
+  font-size: 1rem;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+header li{
+  display:inline;
+  font-size: 1rem;
+  padding:0 1rem;
+}
+
+header #logo{
+  float: left;
+  margin-top:2.5rem;
+}
+
+.menu a:hover{
+  color:#B9459E;
+  font-weight: bold;
+}
+
+.menu{
+  margin-top:3.4rem;
+}
+
+#contact-menu a{
+  color: #B9459E;
+  text-decoration: none;
+}
+
+#contact-menu button{
+  background-color:transparent;
+  border: .2rem solid #B9459E;
+  margin-top:2.5rem;
+  padding: 0.5rem;
+}
+
+header ul{
+  float: right;
+}
+
+/* hero unit*/
+#intro h1{
+  border-bottom: .1rem solid #B9459E;
+  font-size: 2.4rem;
+  margin: 0 auto;
+  padding-top:5rem;
+  text-align:center;
+}
+
+#intro p{
+  padding-bottom: 5rem;
+}
+
+#hero img{
+  display: block;
+  margin: auto;
+  padding: 5rem 0;
+  width: 80%;
+}
+
+
+/* specs */
+#specs{
+  background-color:#B9459E;
+  color:#FFF;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction:column;
+  margin: 2rem 0;
+}
+
+#specs img{
+  display:block;
+  width:5rem;
+  margin:0 auto;
+}
+
+#specs h5{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: .5rem;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+#specs p{
+  font:1.6rem;
+  text-align: center;
+}
+
+#specs ul{
+  text-align: center;
+}
+
+#spec1, #spec2, #spec3{
+  padding:5rem 0;
+}
+
+/* Case Study Navigation */
+#angel-menu{
+  height: 0;
+  visibility: hidden;
+  width:0;
+}
+
+/* overview */
+#overview {
+padding-bottom: 10rem;
+}
+
+#overview p{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#overview button, #visual button{
+  background-color:#B9459E;
+  color: #ffffff;
+  display:block;
+  height:10%;
+  margin: 0 auto;
+  opacity:0.7;
+  padding:1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+  width:18rem;
+}
+
+#overview button a, #visual button a{
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#overview button:hover, #visual button:hover{
+  opacity:1;
+}
+
+#overview button{
+  margin-top: 1rem;
+}
+
+
+/* Discovery */
+#discovery{
+  background-color:#F7F7F7;
+  padding: 5rem 0;
+}
+
+#discovery .fail{
+  padding-top:2rem;
+  width:25%;
+}
+#discovery .pf{
+  padding-top:2rem;
+  width:35%;
+}
+
+#discovery #project p{
+  padding-bottom: 5rem;
+}
+
+#problem img{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  width:40%;
+}
+
+#solutions img{
+  display:block;
+  margin: 0 auto;
+  padding-top:5rem;
+  width:45%;
+}
+
+
+/* Research */
+#research{
+  padding: 5rem 0;
+  }
+
+#research .survey-results{
+  width:35rem;
+  min-height: 25rem;
+  background-color:#F3F3F2;
+  border-radius:1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding:3rem;
+
+  }
+#research h6{
+  font-size: 3rem;
+  text-align: center;
+}
+
+#research strong{
+  font-weight: bold;
+}
+
+#research a, #ia a, #visual a{
+  color: #B9459E;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity:0.8;
+  text-align: center;
+  text-decoration:none;
+  text-transform: uppercase;
+}
+
+#research a:hover, #ia a:hover{
+  opacity: 1;
+}
+
+#research td, #research th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#research #title{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F2F2F2;
+}
+
+
+
+#research table tr:hover
+{background-color: #ddd;
+}
+
+/* Info Architecture */
+#ia{
+  background-color:#F7F7F7;
+  padding: 5rem 0;
+}
+
+#ia #persona1{
+  background-color: #E097FD;
+  padding:2rem;
+  border-radius:1rem;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  display:block;
+  margin: 0 auto;
+  margin-right: 2rem;
+  margin-bottom:5rem;
+  width: 30rem;
+  height:100rem;
+  overflow: auto;
+}
+
+#ia .e-lee{
+  margin: 0 auto;
+  padding:0 1rem;
+  padding-top:5rem;
+}
+
+
+#ia #persona2{
+  background-color:#FFD69B;
+  padding:2rem;
+  border-radius:1rem;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin: 0 auto;
+  width: 30rem;
+  min-height:100rem;
+  overflow: scroll;
+
+}
+
+#ia .a-mcdede{
+  margin: 0 auto;
+  padding:0 1rem;
+  padding-top: 5rem;
+}
+
+#ia #demographics{
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+#ia #goals{
+  padding:0 3rem;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+#ia #concerns{
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+#ia h6{
+  padding-top:3rem;
+}
+
+#us td, #us th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#us #title{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #C86AAF;
+  color:#FFF;
+}
+
+#us table tr:hover
+{background-color: #ddd;
+}
+
+#uf img, #sketches img, #wireframes img{
+  margin: 0 auto;
+  width:100%;
+}
+
+#ia #wf-imgs{
+  padding-top: 3rem;
+}
+
+/* Visual Design */
+#visual{
+  padding: 5rem 0;
+}
+
+ #visual img{
+  display:block;
+  margin: 0 auto;
+  padding: 2rem;
+  width:80%;
+}
+
+ #visual .mindmap{
+  padding-bottom: 5rem;
+}
+
+#visual #style-guide{
+  width:100%;
+  margin-top:2rem;
+  margin-bottom:5rem;
+}
+
+#visual #style-guide h5{
+  text-align: center;
+}
+
+#visual #arms {
+  width: 8rem;
+  height: 8rem;
+  background: #BC13FE;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 auto;
+  position:relative;
+  box-shadow: 5px -5px 5px #F4F4F4;
+}
+
+#visual #arms p{
+  color:#fff;
+  position:absolute;
+  width:inherent;
+  height:auto;
+  padding-left: 2rem;
+  top:50%;
+  transform:translateY(-50%);
+  text-align: center;
+}
+
+#visual #weights {
+  width: 8rem;
+  height: 8rem;
+  background: #FF9500;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  position:relative;
+  box-shadow: 5px -5px 5px #F4F4F4;
+}
+
+#visual #weights p{
+  color:#fff;
+  padding-left: 2rem;
+  position:absolute;
+  width:inherent;
+  height:auto;
+  top:50%;
+  transform:translateY(-50%);
+  text-align: center;
+}
+
+#visual #bkg1 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #fff;
+  border: .1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  position:relative;
+  box-shadow: 5px -5px 5px #F4F4F4;
+}
+
+#visual #bkg1 p{
+  color:#000;
+  padding-left: 2rem;
+  position:absolute;
+  width:inherent;
+  height:auto;
+  top:50%;
+  transform:translateY(-50%);
+  text-align: center;
+}
+
+
+#visual #bkg2 {
+  width: 8rem;
+  height: 8rem;
+  background: #DADADA;
+  border: .1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+  box-shadow: 5px -5px 5px #F4F4F4;
+}
+
+#visual #bkg2 p{
+  padding-left: 2rem;
+  position:absolute;
+  width:inherent;
+  height:auto;
+  top:50%;
+  transform:translateY(-50%);
+  text-align: center;
+}
+
+
+#visual #call {
+  width: 8rem;
+  height: 8rem;
+  background: #FFC573;
+  border-radius: 50%;
+  color:#000;
+  font-size: 1rem;
+  position:relative;
+  box-shadow: 5px -5px 5px #F4F4F4;
+}
+
+#visual #call p{
+  color:#000;
+  padding-left: 2rem;
+  position:absolute;
+  width:inherent;
+  height:auto;
+  top:50%;
+  transform:translateY(-50%);
+  text-align:center;
+}
+
+#typography #logo, #typography #brand{
+  font-family: ruda;
+}
+
+#typography #h1{
+  font-size:3rem;
+  padding-top:2rem;
+}
+
+#typography #h2{
+  font-size:2.4rem;
+}
+
+#typography #h3{
+  font-size:1.7rem;
+}
+
+#typography #p{
+  font-size:1.7rem;
+  padding-bottom:2rem;
+}
+
+#visual #hi-fi{
+  clear:both;
+  padding-top: 5rem;
+}
+
+#visual a{
+  font-size:1rem;
+  text-align: center;
+}
+
+#visual #ptest{
+  padding-top: 3rem;
+  font-weight: bold;
+}
+
+#visual #typography #bold{
+  font-weight:bold;
+}
+
+#visual #ptest span{
+  text-decoration: underline;
+}
+
+#visual button{
+  margin-top: 1rem;
+}
+
+#visual #prot{
+  padding-top:5rem;
+}
+
+
+/* Conclusion */
+#conclusion{
+  background-color:#F7F7F7;
+  padding: 5rem 0;
+}
+
+#conclusion p{
+  padding-top:1rem;
+}
+
+/* Previous-Next buttons */
+
+#prev-next a:hover {
+  color:#B9459E;
+}
+
+
+#prev-next .next {
+  color: #cb75ba;
+  float:right;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+/* Footer */
+#myFooter .footer-copyright{
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#myFooter .social-networks a{
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #B9459E;
+    padding: .2rem;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .email:hover{
+  color:#F4C056;
+}
+
+#myFooter .linkedin:hover{
+	color:#0077b5;
+}
+
+#myFooter .twitter:hover{
+	color:#00aced;
+}
+
+#myFooter .github:hover{
+	color: #333;
+}
+
+
+    /*TABLET */
+@media screen and (min-width: 575px){
+
+/* Global  */
+  body{
+    font-size: 2rem;
+  }
+
+/* Header */
+  #logo img{
+     width:3.5rem;
+   }
+
+   header a{
+     font-size:1.2rem;
+   }
+
+   #contact-menu a{
+     font-size: 1.2rem;
+   }
+
+   #hero img{
+     width:50%;
+   }
+
+/* intro */
+  #angel-menu{
+    visibility: hidden;
+  }
+
+
+  #intro p{
+    margin:0 auto;
+    width:80%;
+  }
+
+
+/* specs */
+
+  #spec1, #spec2, #spec3{
+    margin: 0 auto;
+    width:40%;
+  }
+
+/* angel-menu  */
+
+  #angel-menu{
+    visibility: hidden;
+  }
+
+/* overview */
+
+  #overview img{
+    width:30%;
+  }
+
+  #overview p{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #overview button, #visual button{
+    font-size: 1.4rem;
+    height: 12%;
+    width: 20rem;
+  }
+
+  #overview button a, #visual button a{
+      font-size: 1.2rem;
+    }
+
+
+/* Discovery & Research */
+
+  #discovery .pf{
+    margin: 0 auto;
+    width:30%;
+    }
+
+
+/* Discovery */
+  #discovery .fail{
+    width:20%;
+  }
+
+
+/* Research */
+  #research{
+    margin: 0 auto;
+    width:80%;
+  }
+
+  #research .survey-results{
+    margin:1rem;
+  }
+
+  #results .flex-container{
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+   #results #comp{
+     padding:2rem 0;
+   }
+
+/* Information Architecture */
+
+  #ia{
+    padding: 5rem 0;
+  }
+
+  #ia .flex-container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction:row;
+    padding: 0;
+  }
+
+  #ia #persona1, #ia #persona2{
+    width: 50rem;
+    height:150rem;
+    overflow: scroll;
+  }
+
+  #ia #us, #ia #uf, #ia #sketches, #ia #wireframes{
+    margin: 0 auto;
+    padding-top: 5rem;
+    width: 80%;
+  }
+
+  #ia #us p{
+    padding-bottom: 3rem;
+  }
+
+
+/* Visual Design */
+
+  #visual{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #visual #logo-sketches{
+    align-items: flex-start;
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+
+  #visual #color{
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  #visual #typography{
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+/* Conclusion */
+  #conclusion p{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+/* Footer */
+  #myFooter .social-networks .email{
+    font-size: 2.5rem;
+  }
+
+  #myFooter .social-networks .linkedin{
+    font-size: 2.5rem;
+  }
+
+  #myFooter .social-networks .twitter{
+    font-size: 2.5rem;
+  }
+
+  #myFooter .social-networks .github{
+    font-size: 2.5rem;
+  }
+
+  #myFooter .footer-copyright p{
+    font-size: 1.2rem;
+  }
+}
+
+
+      /* DESKTOP */
+
+@media screen and (min-width: 1200px){
+
+/* global */
+
+  body{
+  font-size: 2.4rem;
+  }
+
+  #research a, #ia a, #visual a{
+    font-size: 1.4rem;
+  }
+
+/* Header */
+  #logo img{
+     width:4.5rem;
+   }
+
+  header li{
+    padding: 0 2rem;
+  }
+
+  header a{
+    font-size:1.5rem;
+  }
+
+  .menu{
+    margin-top:4rem;
+  }
+
+  #contact-menu button{
+    margin-top: 3rem;
+  }
+
+  #contact-menu a{
+    font-size: 1.5rem;
+  }
+
+
+  /* hero unit*/
+  #intro h1{
+    font-size: 4rem;
+  }
+
+
+/* specs */
+  #specs .flex-container {
+    flex: 1 2 auto;
+    flex-direction:row;
+    justify-content: center;
+    margin: 0 auto;
+    width:90%;
+  }
+
+  #specs h5{
+    font-size: 2.4rem;
+    }
+
+  #specs p{
+    font:1.4rem;
+    }
+
+
+  #spec1, #spec2, #spec3{
+      padding:10rem 5rem;
+      width:30%;
+    }
+
+
+/* Angel Menu */
+  #angel-menu {
+    background-color:#6b6b6b;
+    padding-top:2rem;
+    padding-bottom: 5rem;
+    position:sticky;
+    top:0;
+    width:100%;
+    visibility: visible;
+    z-index: 1;
+  }
+
+  #angel-menu a{
+    color:#FFF;
+    padding: 0 2rem;
+    text-decoration:none;
+    text-transform:uppercase;
+  }
+
+  #angel-menu a:hover{
+    color:#FF8AEB;
+  }
+
+
+  #angel-menu ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 2rem;
+    justify-content: space-between;
+    margin:0 auto;
+    text-align:center;
+    width: 100%;
+  }
+
+
+/* overview */
+ #discovery h4, #research h4, #ia h4, #visual h4{
+    padding-top: 5rem;
+  }
+
+
+
+  #overview button, #visual button{
+    font-size: 1.8rem;
+    height:15%;
+    width:22rem;
+  }
+
+  #overview button a, #visual button a{
+      font-size: 1.4rem;
+    }
+
+  /* Discovery */
+
+  #problem, #solutions {
+    margin: 0 auto;
+    width:60%;
+  }
+
+  #discovery .fail{
+    width:20%;
+  }
+
+  #discovery .pf{
+    width:25%;
+  }
+
+
+/* Research */
+  #research{
+    margin:0 auto;
+    width:60%;
+  }
+
+  #research .survey-results{
+    width:35rem;
+    min-height: 40rem;
+  }
+
+
+/* Information Architecture */
+
+  #ia{
+    padding: 5rem 0;
+  }
+
+  #ia .flex-container{
+      align-items: flex-start;
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      padding: 0;
+      width:100%;
+  }
+
+  #ia .e-lee, #ia .a-mcdede{
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  #ia #demographics{
+    display: block;
+    float: left;
+    padding: 5rem 1rem;;
+    width: 50%;
+  }
+
+  #ia #goals{
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding-top:3rem;
+    width: 48%;
+  }
+
+  #ia #concerns{
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding-top:3rem;
+    width: 48%;
+  }
+
+  #ia #motivation{
+    clear:both;
+  }
+
+  #ia #persona1, #ia #persona2{
+    width: 100rem;
+    height:100rem;
+    overflow: auto;
+  }
+
+  #ia #us, #ia #uf, #ia #sketches, #ia #wireframes{
+    margin: 0 auto;
+    width: 60%;
+  }
+
+
+/* Visual Design */
+
+  #visual{
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  #visual #logo-sketches{
+    align-items: flex-start;
+    display:flex;
+    flex-direction: row;
+  }
+
+
+/* Conclusion */
+  #conclusion p{
+    margin: 0 auto;
+    width: 60%;
+  }
+
+
+/* Footer */
+
+  #myFooter .footer-copyright p{
+    font-size: 1.4rem;
+  }
+
+  #myFooter .social-networks .email{
+    font-size: 3rem;
+  }
+
+  #myFooter .social-networks .linkedin{
+    font-size: 3rem;
+  }
+
+  #myFooter .social-networks .twitter{
+    font-size: 3rem;
+  }
+
+  #myFooter .social-networks .github{
+    font-size: 3rem;
+  }
+}
