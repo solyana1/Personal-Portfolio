@@ -47,21 +47,96 @@ h4{
 }
 /* Selected Work */
 
+.work{
+  display: block;
+  width:100%;
+}
+.work .title{
+  font-size: 1.8rem;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.work  #pf{
+  padding-top: 1rem;
+}
+
+#pinfit{
+  width:40%;
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details p{
+  color: #fff;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
 #selected-work h3{
   color:#353535;
 }
 
-#selected-work #image2 img{
-  padding-top: 5rem;
-  width:50%;
-}
-/* Buttons */
 
 #selected-work a, #connect a{
   color: #ffffff;
   font-size: 1rem;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 
@@ -160,10 +235,6 @@ header #caret{
 
 
 /* Selected Work */
-
-#selected-work img{
-  width:80%;
-}
 
 h3{
   font-family: Oswald;
@@ -307,6 +378,9 @@ p{
    }
 
 
+   .work .title{
+     font-size: 2.2rem;
+   }
    #selected-work p, #connect p{
      font-size: 2rem;
      }
@@ -396,6 +470,9 @@ p{
 
 /* Selected Work */
 
+  .work .title{
+  font-size: 2.4rem;
+  }
   #selected-work h3{
     font-size:3.6rem;
   }
@@ -408,27 +485,6 @@ p{
   #selected-work p{
     font-size: 2rem;
     }
-
-  #selected-work #image1 img{
-    float:left;
-    margin-left: 20%;
-    padding: 5rem 0;
-    width:35%;
-  }
-  #selected-work #image2 img{
-    float:left;
-    margin-left: 20%;
-    padding: 5rem 0;
-    width:35%;
-  }
-
-  #selected-work #description{
-    float:left;
-    padding: 5rem 0;
-    padding-left: 2rem;
-    text-align: left;
-    width: 30%;
-  }
 
 
   #selected-work a, #connect a{
